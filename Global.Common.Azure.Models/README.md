@@ -9,7 +9,9 @@
 
 
 # Dependencies
-# https://www.nuget.org/packages/Global.Common.Features.Models
+- https://www.nuget.org/packages/Global.Common.Features.Models
+- https://www.nuget.org/packages/Azure.Data.Tables
+- https://www.nuget.org/packages/Azure.Storage.Blobs
 
 # Features
 
