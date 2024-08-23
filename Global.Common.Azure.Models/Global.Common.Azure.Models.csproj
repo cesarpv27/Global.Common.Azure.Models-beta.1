@@ -8,13 +8,9 @@
     <Nullable>enable</Nullable>
 	<Title>$(ProjectName)</Title>
 	<PackageId>$(ProjectName)</PackageId>
-	<Version>0.1.0-beta.1</Version>
+	<Version>0.1.1-beta.1</Version>
 	<Authors>Cesar Palomino Vila</Authors>
-	  <Description>
-		  This project contains several features that provide functionalities to support and enhance development on Azure platform.
-		  One important feature is that it contains a generic Azure responses hierarchy, which allows you to manage your development in the most common scenarios.
-		  This is a beta version and has not been thoroughly tested or recommended for use in production environments.
-	  </Description>
+	  <Description>This project contains several features that provide functionalities to support and enhance development on Azure platform. One important feature is that it contains a generic Azure responses hierarchy, which allows you to manage your development in the most common scenarios. This is a beta version and has not been thoroughly tested or recommended for use in production environments. All methods are documented.</Description>
 	  <PackageLicenseExpression>BSD-3-Clause</PackageLicenseExpression>
 	  <PackageProjectUrl></PackageProjectUrl>
 	  <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
@@ -23,14 +19,18 @@
 	  <Copyright>Copyright (c) 2024 Cesar Palomino Vila. Licensed under the BSD-3-Clause.</Copyright>
 	  <GenerateDocumentationFile>true</GenerateDocumentationFile>
 	  <PackageReleaseNotes>
+		  ### Fixed
+		  - v0.1.1-beta.1 The description has been fixed in the documentation.
+		  - v0.1.1-beta.1 Global.Common.Features.Models has been updated to Version="0.1.1-beta.1".
+
 		  ### Added
 		  - v0.1.0-beta.1 Generic Azure responses hierarchy.
 	  </PackageReleaseNotes>
   </PropertyGroup>
 
 	<ItemGroup>
-		<None Include="README.md" Pack="true" PackagePath="\"/>
-		<None Include="CHANGELOG.md" Pack="true" PackagePath="\"/>
+		<None Include="docs\README.md" Pack="true" PackagePath="\" />
+		<None Include="docs\CHANGELOG.md" Pack="true" PackagePath="\" />
 	</ItemGroup>
 
 	<Target Name="PostPack" AfterTargets="Pack">
@@ -40,7 +40,7 @@
 	<ItemGroup>
 	  <PackageReference Include="Azure.Data.Tables" Version="12.8.3" />
 	  <PackageReference Include="Azure.Storage.Blobs" Version="12.20.0" />
-	  <PackageReference Include="Global.Common.Features.Models" Version="0.1.0" />
+	  <PackageReference Include="Global.Common.Features.Models" Version="0.1.1-beta.1" />
 	</ItemGroup>
 
 </Project>

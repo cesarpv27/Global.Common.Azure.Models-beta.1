@@ -1,11 +1,13 @@
 # nuget Global.Common.Azure.Models
+
 # namespace Global.Common.Azure.Models
 
 # Description
 
-- This project contains several features that provide functionalities to support and enhance development on Azure platform. All methods are documented.
-- One important feature is that it contains a generic Azure responses hierarchy, which allows you to manage your development in the most common scenarios.
-- This is a beta version and has not been thoroughly tested or recommended for use in production environments.
+This project contains several features that provide functionalities to support and enhance development on Azure platform. All methods are documented.
+One important feature is that it contains a generic Azure responses hierarchy, which allows you to manage your development in the most common scenarios.
+This is a beta version and has not been thoroughly tested or recommended for use in production environments.
+All methods are documented.
 
 
 # Dependencies
