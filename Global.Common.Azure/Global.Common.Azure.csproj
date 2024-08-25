@@ -7,9 +7,13 @@
       <ImplicitUsings>enable</ImplicitUsings>
       <Nullable>enable</Nullable>
 	  <Title>$(ProjectName)</Title>
-	  <Version>0.0.9</Version>
+	  <Version>0.0.10</Version>
 	  <Authors>Cesar Palomino Vila</Authors>
 	  <GenerateDocumentationFile>true</GenerateDocumentationFile>
+	  <PackageReleaseNotes>
+		  ### Fixed
+		  - v0.0.10 The nuget package 'Global.Common.Azure.Models' has been updated to version="0.1.2-beta.1".
+	  </PackageReleaseNotes>
   </PropertyGroup>
 
 	<Target Name="PostPack" AfterTargets="Pack">
@@ -17,7 +21,7 @@
 	</Target>
 
 	<ItemGroup>
-    <PackageReference Include="Global.Common.Azure.Models" Version="0.1.1-beta.1" />
+    <PackageReference Include="Global.Common.Azure.Models" Version="0.1.2-beta.1" />
   </ItemGroup>
 
 </Project>

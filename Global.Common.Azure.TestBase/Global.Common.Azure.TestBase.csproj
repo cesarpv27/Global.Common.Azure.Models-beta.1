@@ -8,9 +8,9 @@
     <Nullable>enable</Nullable>
 	<Title>$(ProjectName)</Title>
 	<PackageId>$(ProjectName)</PackageId>
-	<Version>0.1.0-beta.1</Version>
+	<Version>0.1.1-beta.1</Version>
 	<Authors>Cesar Palomino Vila</Authors>
-	  <Description>This project contains several features that support and enhance unit test development for the Global.Common.Azure.Models and related projects' NuGet packages using the xUnit NuGet package.. This is a beta version and has not been thoroughly tested or recommended for use in production environments. All methods are documented.</Description>
+	  <Description>This project contains several features that support and enhance unit test development for the Global.Common.Azure.Models and related projects' NuGet packages using the xUnit NuGet package. This is a beta version and has not been thoroughly tested or recommended for use in production environments. All methods are documented.</Description>
 	  <PackageLicenseExpression>BSD-3-Clause</PackageLicenseExpression>
 	  <PackageProjectUrl></PackageProjectUrl>
 	  <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
@@ -19,6 +19,13 @@
 	  <Copyright>Copyright (c) 2024 Cesar Palomino Vila. Licensed under the BSD-3-Clause.</Copyright>
 	  <GenerateDocumentationFile>true</GenerateDocumentationFile>
 	  <PackageReleaseNotes>
+		  ### Fixed
+		  - v0.1.1-beta.1 The nuget package 'Global.Common.Azure.Model' has been updated to version="0.1.2-beta.1".
+		  - v0.1.1-beta.1 The nuget package 'Microsoft.Extensions.Configuration' has been updated to version="9.0.0-preview.7.24405.7".
+		  - v0.1.1-beta.1 The nuget package 'Microsoft.Extensions.Configuration.Binder' has been updated to version="9.0.0-preview.7.24405.7".
+		  - v0.1.1-beta.1 The nuget package 'Microsoft.Extensions.Configuration.Json' has been updated to version="9.0.0-preview.7.24405.7".
+		  - v0.1.1-beta.1 The nuget package 'xunit' has been updated to version="2.9.0".
+
 		  ### Added
 		  - v0.1.0-beta.1 Base unit test classes and utilities.
 	  </PackageReleaseNotes>
@@ -34,11 +41,11 @@
 	</Target>
 
 	<ItemGroup>
-    <PackageReference Include="Global.Common.Azure.Models" Version="0.1.1-beta.1" />
-    <PackageReference Include="Microsoft.Extensions.Configuration" Version="8.0.0" />
-    <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="8.0.1" />
-    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="8.0.0" />
-    <PackageReference Include="xunit" Version="2.8.1" />
+    <PackageReference Include="Global.Common.Azure.Models" Version="0.1.2-beta.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="9.0.0-preview.7.24405.7" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="9.0.0-preview.7.24405.7" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="9.0.0-preview.7.24405.7" />
+    <PackageReference Include="xunit" Version="2.9.0" />
   </ItemGroup>
 
 </Project>
